@@ -1,0 +1,308 @@
+body {
+  padding-top: 100px;
+  background-image: url("./comp/img/bg3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+}
+
+
+
+
+.signup {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  /* backdrop-filter: blur( 10px ); */
+  /* -webkit-backdrop-filter: blur( 0px ); */
+}
+
+.main {
+  width: 400px;
+  border: 1px solid rgba(95, 200, 207, 0.53);
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px;
+
+  box-shadow: 5px 10px 15px gray;
+
+  border-radius: 16px;
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+
+p a {
+  text-decoration: none;
+  color: rgb(27, 209, 246);;
+}
+
+
+.container form input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+input:focus{
+  outline: none;
+}
+.container h1 {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.container p {
+  margin-left: 40px;
+}
+
+.container .below {
+  margin: 0px 0px 30px 70px;
+}
+
+.container .OR {
+  margin-left: 150px;
+}
+
+.inp {
+  padding-bottom: 10px;
+}
+
+.add {
+  width: 150px;
+  height: 40px;
+  margin: 10px 80px;
+  border-radius: 12px;
+  background-color: rgb(27, 209, 246);
+  color: white;
+}
+
+.logs {
+  width: 150px;
+  height: 40px;
+  margin: 25px 80px;
+  border-radius: 12px;
+  background-color: rgb(27, 209, 246);
+  color: white;
+}
+
+p img {
+  height: 30px;
+  width: 30px;
+}
+
+
+.container .icon {
+  margin-left: 65px;
+}
+
+
+.container .using {
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.Home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main1 {
+  border: 1px solid rgba(95, 200, 207, 0.53);
+  border-radius: 16px;
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 15px;
+  margin-bottom: 20px;
+}
+
+.main1 form input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+
+.main1 table td {
+  width: 260px;
+  height: 60px;
+}
+
+.divv {
+  display: flex;
+  justify-content: center;
+}
+
+.logs1 {
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 12px;
+  background-color: rgb(27, 209, 246);
+  color: white;
+}
+
+.set h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+td .date {
+  width: 260px;
+
+}
+
+td select {
+  width: 260px;
+  background-color: transparent;
+}
+
+.main1 form select {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.bck a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.back button {
+  margin-top: 10px;
+  background-color: rgb(27, 209, 246);
+  border-radius: 10px;
+}
+
+.list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.H2 h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.tab2 {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 100px;
+  margin-top: 150px;
+}
+
+.tab2 table td {
+  width: 230px;
+  border: 1px dotted black;
+  text-align: center;
+  border: 1px solid rgba(95, 200, 207, 0.53);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.nav-ul li a:hover {
+  color: rgb(27, 209, 246);
+  border-bottom: 2px solid rgb(27, 209, 246);
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  background: rgb(27, 209, 246)blue;
+  box-shadow: 5px 10px 15px gray;
+  border-radius: 20px;
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+
+.Foot h2 {
+  font-weight: bolder;
+}
+
+.Foot {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(27, 209, 246);
+}
+
+
+td .delll {
+  background-color: red;
+  color: white;
+}
+
+td .edittt a {
+  background-color: rgb(0, 187, 255);
+  color: white;
+}
+
+td .edittt {
+  background-color: rgb(0, 187, 255);
+  color: white;
+}
+
+td .tick {
+  background-color: rgb(89, 228, 89);
+  color: rgb(0, 0, 0);
+}
+
+.right-nav {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.googleAuth{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
